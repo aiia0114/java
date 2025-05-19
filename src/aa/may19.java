@@ -48,6 +48,11 @@ public class may19 {
 		
 		System.out.println("members :" + members);
 		System.out.println("members_copy :" + members_copy);
+		
+		//応用問題1
+		ArrayList<String> fruits1 = new ArrayList<>();
+		fruits1.add("apple");
+		
 	}
 
 }
