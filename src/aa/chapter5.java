@@ -23,7 +23,7 @@ public class chapter5 {
 		
 		// インスタンス化
 		// 演習1
-		Player player = new Player();
+		
 		
 		String language = "java";
 		
@@ -35,9 +35,33 @@ public class chapter5 {
 		System.out.println("使用言語:" + language);
 		System.out.println("値:" + value);
 		System.out.println("アイテム数:" + items.size());
+		
+		// 演習2
+		Monster monster = new Monster();
+		String name = ("スライム");
+		Integer hp = 100;
+		
+		//演習3
+		Enemy goblin = new Enemy();
+		String monsterName = "zombi";
+		Integer damage = 3;
+		
+		Game game = new Game();
 	}
 	
-	class Player() {
+	class Game{
+		
+	}
+	
+	class Enemy{
+		
+	}
+	
+	class Monster{
+		
+	}
+	
+	class Player {
 		
 	}
 	public static void greet(String message) {
