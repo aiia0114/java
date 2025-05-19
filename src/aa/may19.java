@@ -52,6 +52,22 @@ public class may19 {
 		//応用問題1
 		ArrayList<String> fruits1 = new ArrayList<>();
 		fruits1.add("apple");
+		fruits1.add("banana");
+		fruits1.add("orange");
+		
+		ArrayList<String> fruits2 = new ArrayList<>();
+		fruits2.add("grape");
+		fruits2.add("kiwi");
+		fruits2.add("melon");
+		
+		fruits1.addAll(fruits2);
+		System.out.println(fruits1);
+		Collections.sort(fruits1);
+		System.out.println(fruits1);
+		
+		
+		
+		// String と StringBuilder
 		
 	}
 
