@@ -65,9 +65,29 @@ public class may19 {
 		Collections.sort(fruits1);
 		System.out.println(fruits1);
 		
-		
-		
 		// String と StringBuilder
+		StringBuilder sd = new StringBuilder("Hello");
+		sd.append(" World"); // 追加
+		sd.insert(5, " Beautiful"); // 挿入
+		System.out.println(sd);
+		sd.delete(5, 15); // 削除
+		System.out.println(sd);
+		sd.replace(0, 5, "Hi"); // 置換
+		System.out.println(sd);
+		sd.reverse(); // 反転
+		System.out.println(sd);
+		sd.reverse(); // 元に戻す
+		System.out.println(sd);
+		sd.setCharAt(0, 'J'); // 文字変更
+		System.out.println(sd);
+		
+		StringBuilder sd2 = new StringBuilder();
+		sd2.append(" こんにちは");
+		sd2.append("、 ");
+		sd2.append("Javaの世界へようこそ!");
+		System.out.println(sd2);
+		System.out.println(sd2.toString());
+		
 		
 	}
 
